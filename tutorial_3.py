@@ -31,7 +31,7 @@ while True:
 
     small_frame = cv2.resize(frame, (0, 0), fx=0.5, fy=0.5)
 
-    image = np.zeros(frame.shape, np.uint8)
+    image = np.zeros(frame.shape, dtype=np.uint8)
 
     # Rotate frame
     #   https://docs.opencv.org/4.5.3/d2/de8/group__core__array.html
