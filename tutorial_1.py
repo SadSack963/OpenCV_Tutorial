@@ -48,5 +48,5 @@ cv2.imshow('Image Rotate CW', img_rotated_cw)
 
 cv2.imwrite("assets/Fun Ride Grayscale Rotated.jpg", img_rotated_cw)
 
-cv2.waitKey(0)  # Wait for any key press (seconds: 0 = infinite)
+cv2.waitKey(0)  # Wait for any key press (milliseconds: 0 = infinite)
 cv2.destroyAllWindows()
