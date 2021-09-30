@@ -65,7 +65,7 @@ while True:
     cv2.imshow('Blue Mask', mask)
 
     result = cv2.bitwise_and(frame, frame, mask=mask)
-    cv2.imshow('Camera 0', result)
+    cv2.imshow('Masked Frame', result)
 
     if cv2.waitKey(delay) == ord('q'):  # Hit q to exit
         break
